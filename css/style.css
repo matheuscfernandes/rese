@@ -97,9 +97,13 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	/* background:url(../img/pw_maze_black_2X.png) left top repeat; */
+	background:url(../rese-photos/RE2.jpg);
+	background-size: cover;
+
 	padding:280px 0;
 }
+
 .logo{
 	width:130px;
 	margin:0 auto 35px;
