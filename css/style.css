@@ -127,9 +127,9 @@ p{
 .we-create li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
-	color: #bcbcbc;
-	text-transform: uppercase;
+	font-size:20px;
+	color: #dfdfdf;
+	/* text-transform: uppercase; */
 	font-weight: 400;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
@@ -621,7 +621,9 @@ border: 2px solid #fff;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	/* background:url(../img/bg-map.png) left 190px no-repeat; */
+	background:url(../img/bg-map.png) left 190px;
+
 }
 .contact-info-box{
 	font-size:15px;
