@@ -591,6 +591,9 @@ border: 2px solid #fff;
 .team-leader ul li a.fa-google-plus:hover{
 	color:#dd4b39;
 }
+.team-leader ul li a.fa-linkedin:hover{
+	color:#3b5998;
+}
 
 /* Talk Business
 ---------------------------------*/
@@ -647,15 +650,19 @@ border: 2px solid #fff;
 	overflow:hidden;
 }
 .social-link{
-	padding:35px 0;
-	margin:0 0 0 68px;
+	padding:0px 0;
+	margin:0 0 0 350px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
+	justify-content: right;
+	position: absolute;
+
 }
+
 .social-link li{
 	float:left;
-	margin-right:8px;
+	margin-right:20px;
 }
 .social-link li a{
 	display:block;
@@ -687,7 +694,9 @@ border: 2px solid #fff;
 .dribbble a:hover {
 	background: #ea4c89;
 }
-
+.linkedin a:hover {
+	background: #cb2026;
+}
 .form{
 	margin:0 66px 0 30px;
 }
