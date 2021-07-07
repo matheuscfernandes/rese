@@ -30,7 +30,7 @@ player = new YT.Player('player', {
     videoId: 'uF7xjqbwmpY',
     playerVars: {
     'playsinline': 1,
-    'autoplay': 1
+    'autoplay': 0
     },
     events: {
     'onReady': onPlayerReady,
