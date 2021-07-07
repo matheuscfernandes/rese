@@ -1,6 +1,7 @@
 $(window).load(function () {
     $(".trigger_popup_fricc").click(function(){
        $('.hover_bkgr_fricc').show();
+       ytstartVideo();
     });
     $('.hover_bkgr_fricc').click(function(){
         $('.hover_bkgr_fricc').hide();
@@ -26,9 +27,10 @@ function onYouTubeIframeAPIReady() {
 player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'uF7xjqbwmpY',
     playerVars: {
-    'playsinline': 1
+    'playsinline': 1,
+    'autoplay': 1
     },
     events: {
     'onReady': onPlayerReady,
@@ -55,3 +57,7 @@ if (event.data == YT.PlayerState.PLAYING && !done) {
 function stopVideo() {
 player.stopVideo();
 }
+
+function ytstartVideo() {
+    player.startVideo();
+    }
