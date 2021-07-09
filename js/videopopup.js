@@ -1,7 +1,6 @@
 $(window).load(function () {
     $(".trigger_popup_fricc").click(function(){
        $('.hover_bkgr_fricc').show();
-       ytstartVideo();
     });
     $('.hover_bkgr_fricc').click(function(){
         $('.hover_bkgr_fricc').hide();
